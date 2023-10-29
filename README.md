@@ -1,85 +1,34 @@
-# portfolio-part-4-richhann
-portfolio-part-4-richhann created by GitHub Classroom
+Portfolio 4 on the economic impact of COVID-19
 
-# Portfolio 4: Economic Impact of COVID-19 Analysis
+---
 
-This project aims to analyze the economic impact of COVID-19, its correlation with stock market fluctuations, specifically focusing on Bitcoin and S&P 500 indices, and the effect of USA governmental stimulus packages on these markets. 
+# Reflective Report on Portfolio 4
 
-Stimulus and Relief (US)
+## Introduction
 
-- Package 1 signed into law on March 6, 2020, 8.3 Billion
+This report encapsulates the exploration journey undertaken in Portfolio 4 of the [Data Science Study Practices](https://github.com/richhann/Data-Science-Study-Practices/tree/portfolio-part-4-richhann) on GitHub. The focal point of this project was to unravel the economic ramifications of COVID-19, its linkage with stock market oscillations, specifically zooming into Bitcoin and S&P 500 indices, and the influence of USA governmental stimulus packages on these markets.
 
-- Package 2 March 18, 2020, 1 Billion, paid sick leave + free test
+## Problem Solving and Learning
 
-- Package 3 March 27, 2020 largest relief package (Additional 600 USD/week)
+The project posed a multi-faceted challenge, encompassing data procurement from diverse sources, handling missing or incomplete data, and aligning the data chronologically to reflect accurate trends. Through rigorous data preparation and exploration, I honed my skills in variable identification, univariate and bivariate analysis, which were pivotal in the subsequent analysis phase.
 
-- Package 3.5 April 24, 2020
+## Progression and Future Interests
 
-- Package 4 Dec. 21, 2020, 900 billion stimulus
+The progression from the onset of this unit to the culmination of Portfolio 4 has been enriching. The project not only fortified my data analysis acumen but also spurred a keen interest in economic data analysis, which I am eager to delve into deeper in future projects.
 
-- Package 5 March 11, 2021 implementing a 1.9 trillion package
+## Discussion Points
 
-Federal stimulus checks were discontinued for 2022.
+### Dataset Choice
+The datasets encompassed stock market data from Yahoo Finance and Wall Street Journal, Bitcoin data from Yahoo Finance, COVID-19 data from Kaggle or World Health Organization, and Government Stimulus Packages data from Investopedia. These were instrumental in constructing a well-rounded analysis of the economic landscape during the COVID-19 pandemic.
 
-TIMEFRAME (Jan 22 2020 - Jan 22 2022 , cut off date Sep 03 2023)
+### Problem Identification
+The project sought to answer well-defined questions concerning the global economic impact of COVID-19, the correlation between COVID-19 cases and stock market indices, the effect of government stimulus packages on stock market indices and Bitcoin prices, and the correlation between stimulus packages' release timelines with Bitcoin and S&P 500 indices.
 
-### Proposing Well-defined Questions (2 marks)
+### Model Selection
+Employing Correlation Analysis, Time Series Analysis, and Regression Analysis was pivotal in dissecting the relationships between the variables and predicting the impact of various factors on stock market indices and Bitcoin prices.
 
-1. What has been the global economic impact of COVID-19?
-2. Is there a correlation between the number of COVID-19 cases and stock market indices across different countries?
-3. Have government stimulus packages had a positive impact on stock market indices and Bitcoin prices?
-4. How do stimulus packages' release timelines correlate with Bitcoin and S&P 500 indices?
+### Insights and Conclusions
+The juxtaposition of Bitcoin versus S&P 500 unveiled nuanced insights into market behaviors in response to governmental economic interventions during the pandemic. The correlation analysis between stimulus packages, Bitcoin, and the S&P 500 offered a lens into different market reactions, thus fulfilling the objective of providing a thorough analysis addressing the core requisites of the project.
 
-### Data Preparation and Exploration (2 marks)
-
-#### Data Sources:
-
-- **Stock Market Data**: Yahoo Finance, Wall Street Journal.
-- **Bitcoin Data**: Historical price data from Yahoo Finance.
-- **COVID-19 Data**: Datasets available on Kaggle or data from the World Health Organization.
-- **Government Stimulus Packages**: Investopedia US COVID-19 Stimulus and Relief Accessed: 16/10/2023.
-
-#### Exploration:
-- **Variable Identification**: Identify the variables within each dataset and their types.
-- **Univariate Analysis**: Analyze single variables to understand their distribution and potential impact.
-- **Bivariate Analysis**: Analyze the relationships between COVID-19 cases, stock market indices, Bitcoin prices, and stimulus packages.
-- **Missing Value Treatment**: Handle missing or incomplete data to ensure accuracy in analysis.
-
-### Analysis/Prediction Techniques (2 marks)
-- **Correlation Analysis**: Assess the correlation between COVID-19 cases, stock market indices, Bitcoin prices, and stimulus package timelines.
-- **Time Series Analysis**: Explore stock market, Bitcoin trends over time, and relate them to major COVID-19 events or stimulus package announcements.
-- **Regression Analysis**: Determine the impact of various factors on stock market indices and Bitcoin prices.
-
-### Visualization (2 marks)
-- Visualize the global economic impact of COVID-19 using geographic heatmaps or time-series plots.
-- Utilize scatter plots or line charts to visualize the correlation between COVID-19 cases, stock market indices, Bitcoin prices, and stimulus package timelines.
-- Create interactive dashboards that allow for a deeper exploration of data and insights.
-
-### Evaluation
-- Evaluate the accuracy and effectiveness of your models using metrics like MSE, MAE, R-squared for regression problems, and accuracy, F-score, AUC for classification problems.
-- Compare the performance of simpler models with more complex models to show improvement.
-- Conduct parameter analysis to optimize model performance, e.g., tuning the k parameter in KNN algorithm.
-
-### Implementation
-- Implement your analysis in a structured notebook, with clear explanations, visualizations, and code.
-- Ensure your data, analysis, and findings are well-documented and shared on GitHub as instructed.
-- Submit a backup version of your completed notebook on iLearn as instructed.
-
-## Focus and Rationale
-- The focus on Bitcoin versus S&P 500 provides a more nuanced understanding as stocks may be impacted due to the company's profitability and dividend yield, whereas Bitcoin is largely driven by investor confidence.
-- By analyzing the correlation between stimulus packages, Bitcoin, and the S&P 500, this report aims to provide insights into different market behaviors in response to governmental economic interventions during the COVID-19 pandemic.
-
-## Conclusion
-In this project, we aim to create a thorough analysis to address the core requirements while also investigating the economic implications of COVID-19, its relationship with stock market indices, Bitcoin prices, and the impact of governmental stimulus packages.
-
-
-Late submission oppise...
-
-source: 
-
-Investopedia US COVID-19 Stimulus and Relief Accessed: 16/10/2023
-https://www.investopedia.com/government-stimulus-efforts-to-fight-the-covid-19-crisis-4799723#:~:text=The%20third%E2%80%94and%20largest%E2%80%94relief,person%20plus%20%24500%20per%20child
-
-Yahoo Finance for Nasdaq and Bitcoin
-
-Wall Street Journal for SP500 
+## Additional Points
+The project underscored the significance of a structured analysis framework, clear documentation, and the power of visualization in conveying complex data insights. The endeavor into creating interactive dashboards for deeper data exploration was a learning curve that added a robust dimension to the analysis.
